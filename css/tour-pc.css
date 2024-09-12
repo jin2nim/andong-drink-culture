@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+/* 반응형 데스크탑 스타일 */
+
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #000000;}
+body, html {
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+}
+
+.site-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-area {
+    width: 54%;
+    height: 60px;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    /* 자식객체를 옆으로 나란히 하되, 부모보다 가로크기가 커질 경우 아래로 떨어지게,,, */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    width: 80%;
+}
+.logo a img {
+    display: block;
+    width: 100%;
+}
+
+/* 스크롤시 헤더 고정 */
+
+header.sticky {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 100;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+header.sticky .header-area {
+    height: 60px;
+    line-height: 60px;
+}
+
+header.sticky .logo a {
+    line-height: 60px;
+}
+
+/* pc에서는 메뉴버튼과 클로즈 버튼 안보이게 해야함. */
+
+.menu-btn, .close-btn {
+    display: none;
+}
+
+.logo a {
+    line-height: 100px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+/* nav 버튼 굵기 및 색 변경 */
+
+nav ul li {
+    float: left;
+    margin-left: 1.7vw;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+nav ul li:nth-child(3) a {
+    font-weight: 700;
+    color: #AB7A42;
+}
+
+nav ul li a:hover {
+    color:#AB7A42;
+}
+
+.close-btn {
+    display: none;
+}
+
+/* a-start */
+section {
+    width: 100%;
+    position: relative;
+}
+
+section>img {
+    width: 100%;
+    position: relative;
+}
+
+section>img:nth-child(2) {
+    display: none;
+}
+
+.title {
+    position: absolute;
+    width: 36%;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title>img {
+    width: 100%;
+}
+
+.title>img:nth-child(2) {
+    display: none;
+}
+
+.vedio-area {
+    width: 45%;
+    height: 41.8%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vedio-area img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.more {
+    width: 12%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 13%;
+}
+
+.more>img {
+    width: 100%;
+}
+
+.more>img:nth-child(2) {
+    display: none;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    position: relative;
+    margin-top: -1%;
+}
+
+footer>img {
+    width: 100%;
+    position: relative;
+}
+
+footer>img:nth-child(2) {
+    display: none;
+}
+
+footer>a {
+    position: absolute;
+    width: 3.8%;
+    height: 10%;
+    /* background-color: #ffffff; */
+    top: 50%;
+    left: 65.2%;
+}

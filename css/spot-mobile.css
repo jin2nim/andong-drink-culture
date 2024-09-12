@@ -1,0 +1,323 @@
+@media screen and (max-width:1280px) {
+    .header-area {
+        width: 80%;
+    }
+
+    section, footer {
+        width: 150%;
+        margin: 0 auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    p {
+        font-size: 0.8rem !important;
+    }
+
+}
+
+
+@media screen and (max-width:720px) {
+
+    header {box-shadow: none;}
+    .header-area {
+        width: 100%;
+        text-align: center;
+        height: 8vh;
+        z-index: 995;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        /* background-color: yellow; */
+        margin-top: 2.5%;
+    }
+
+    .logo a {
+        width: 25%;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2vh;
+    }
+
+    .logo a img {
+        width: 100%;
+    }
+    header.sticky {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    header.sticky .header-area {
+        height: 10vh;
+    }
+
+    header.sticky .logo a {
+        line-height: 10vh;
+    }
+
+    .menu-btn {
+        display: block;
+        position: fixed;
+        width: 5%;
+        right: 5%;
+        top: 3vh;
+        cursor: pointer;
+    }
+
+    .menu-btn>img {
+        width: 100%;
+    }
+
+
+    nav {
+        width: 45%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        top: 50%;
+        transform: translateY(-50%);
+        position: fixed;
+        right: 0;
+        display: none;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li {
+        position: absolute;
+        font-size: 0.9rem;
+        right: 25%;
+        z-index: 110;
+    }
+
+    nav ul li a {
+        z-index: 999 !important;
+    }
+
+    nav ul li:nth-child(1) {
+        top: 25%;
+    }
+    nav ul li:nth-child(2) {
+        top: 40%;
+    }
+    nav ul li:nth-child(3) {
+        top: 55%;
+    }
+    nav ul li:nth-child(4) {
+        top: 70%;
+    }
+
+    .close-btn {
+        display: block;
+        width: 15%;
+        position: fixed;
+        bottom: 8%;
+        left: 24%;
+        /* background-color: #AB7A42; */
+        padding: 5%;
+        cursor: pointer;
+    }
+
+    .close-btn>img {
+        width: 80%;
+    }
+
+
+    /* section */
+    section {
+        width: 100%;
+    }
+    .title>img:nth-child(1), section>img:nth-child(1) {
+        display: none;
+    }
+
+    .title>img:nth-child(2), section>img:nth-child(2) {
+        display: block;
+    }
+    .title {
+        width: 101%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 3%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .text-area {
+        width: 89.5%;
+        top: 3.8%;
+    }
+
+    .spot-area {
+        height: 95%;
+    }
+
+    .spot-area>a {
+        width: 48%;
+    }
+    
+    .spot-area>a:nth-child(1) {
+        top: 0;
+        left: 0;
+    }
+    .spot-area>a:nth-child(2) {
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(3) {
+        top: 9%;
+        right: 100%;
+        transform: translateX(100%);
+    }
+    .spot-area>a:nth-child(4) {
+        top: 9%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(5) {
+        top: 18%;
+        left: 0;
+        transform: none;
+    }
+    .spot-area>a:nth-child(6) {
+        top: 18%;
+        right: 0;
+    }
+    .spot-area>a:nth-child(7) {
+        top: 27%;
+        left: 0;
+    }
+    .spot-area>a:nth-child(8) {
+        top: 27%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(9) {
+        top: 36%;
+        right: 100%;
+        transform: translateX(100%);
+    }
+    .spot-area>a:nth-child(10) {
+        top: 36%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(11) {
+        top: 45%;
+        left: 0;
+        transform: none;
+    }
+    .spot-area>a:nth-child(12) {
+        top: 45%;
+        right: 0;
+    }
+    .spot-area>a:nth-child(13) {
+        top: 54%;
+        left: 0;
+    }
+    .spot-area>a:nth-child(14) {
+        top: 54%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(15) {
+        top: 63%;
+        right: 100%;
+        transform: translateX(100%);
+    }
+    .spot-area>a:nth-child(16) {
+        top: 63%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(17) {
+        top: 72%;
+        left: 0;
+        transform: none;
+    }
+    .spot-area>a:nth-child(18) {
+        top: 72%;
+        right: 0;
+    }
+    .spot-area>a:nth-child(19) {
+        top: 81%;
+        left: 0;
+    }
+    .spot-area>a:nth-child(20) {
+        top: 81%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(21) {
+        top: 90%;
+        right: 100%;
+        transform: translateX(100%);
+    }
+    .spot-area>a:nth-child(22) {
+        top: 90%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(23) {
+        top: 99%;
+        left: 0;
+        transform: none;
+    }
+    .spot-area>a:nth-child(24) {
+        top: 99%;
+        right: 0;
+    }
+    .spot-area>a:nth-child(25) {
+        top: 108%;
+        left: 0;
+    }
+    .spot-area>a:nth-child(26) {
+        top: 108%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .spot-area>a:nth-child(27) {
+        /* top: 104%;
+        right: 100%;
+        transform: translateX(100%); */
+        display: none;
+    }
+
+    .btn-area>img:nth-child(1) {
+        display: none;
+    }
+
+    .btn-area>img:nth-child(2) {
+        display: block;
+    }
+
+    .btn-area {
+        width: 50%;
+        bottom: -18.5%;
+    }
+
+    /* footer */
+    footer{
+        width: 100%;
+    }
+    footer>img:nth-child(1) {
+        display: none;
+    }
+
+    footer>img:nth-child(2) {
+        display: block;
+    }
+
+    footer>a {
+        width: 10%;
+        left: 65%;
+    }
+}
